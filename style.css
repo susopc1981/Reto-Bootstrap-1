@@ -7,7 +7,9 @@
   justify-content: center;
   align-self: flex-start;
 }
-
+.posicion {
+  object-position: top;
+}
 .label-posts {
   width: fit-content;
   padding-left: 5px;
@@ -16,17 +18,80 @@
   border: 1px solid white;
 }
 
-.entertaiment-border {
-  border: 1px solid grey;
-  border-left: 5px solid rgb(255, 94, 207);
+.entertaiment-style {
+  border: 1px solid rgb(228, 228, 228);
+  border-left: 5px solid rgb(247, 58, 253);
+  font-weight: bold;
+  font-size: 20px;
 }
 .text-pink {
-  color: rgb(255, 94, 207);
+  color: rgb(247, 58, 253);
 }
-
+.entertaiment-links {
+  font-size: 18px;
+  color: rgb(165, 165, 165);
+  text-decoration: none;
+}
 .most-popular-border {
   border: 1px solid rgb(228, 228, 228);
   border-left: 3px solid black;
   font-weight: bold;
   font-size: 20px;
+}
+
+.latest-articles-style {
+  border: 1px solid rgb(228, 228, 228);
+  border-left: 5px solid black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.latest-articles-name {
+  font-weight: bold;
+  font-size: 13px;
+  color: rgb(185, 185, 185);
+}
+.text-arrow {
+  background-image: url(images/icons/right-arrow.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: right;
+}
+
+.mt-6 {
+  margin-top: 80px;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.business-style {
+  border: 1px solid rgb(228, 228, 228);
+  border-left: 5px solid rgb(34, 202, 34);
+  font-weight: bold;
+  font-size: 20px;
+}
+.text-green {
+  color: rgb(34, 202, 34);
+}
+.travel-style {
+  border: 1px solid rgb(228, 228, 228);
+  border-left: 5px solid rgb(236, 175, 42);
+  font-weight: bold;
+  font-size: 20px;
+}
+.text-orange {
+  color: rgb(236, 175, 42);
+}
+.text-grey {
+  color: rgb(185, 185, 185);
+}
+
+.border-card-bottom {
+  border: 0;
+  border-bottom: 2px solid rgb(63, 63, 63);
+}
+.bg-darkgrey {
+  background-color: rgb(39, 39, 39);
 }
