@@ -21,7 +21,7 @@
   <body>
     <div class="container">
       <!--  BARRA SUPERIOR    -->
-      <div class="row d-none d-md-block py-0 bg-dark text-white">
+      <div class="row d-none d-lg-block py-0 bg-dark text-white">
         <div class="col bg-black pl-0 d-flex align-items-center my-0">
           <p class="text-grey my-3 px-3">New York,NY HI 58º LO 56º</p>
           <a href="" target="_self" class="text-grey text-decoration-none px-3"
@@ -71,16 +71,16 @@
         </div>
       </div>
       <!--       HEADER       -->
-      <div class="row mt-3 mt-md-5">
-        <div class="col-8 col-md-3 px-2 order-1 order-md-1 logo-align pt-md-4">
+      <div class="row mt-3 mt-lg-5">
+        <div class="col-8 col-lg-3 px-2 order-1 order-lg-1 logo-align pt-lg-4">
           <img class="img-fluid" src="images/icons/logo-01.png" />
         </div>
         <div
-          class="col-md-9 px-1 order-3 order-md-2 pt-3 pt-md-0 d-flex justify-content-end"
+          class="col-lg-9 px-1 order-3 order-lg-2 pt-3 pt-lg-0 d-flex justify-content-end"
         >
           <img class="img-fluid" src="images/banner-01.jpg" />
         </div>
-        <div class="col-4 col-md-12 mt-md-3 px-0 order-2 order-md-3">
+        <div class="col-4 col-lg-12 mt-lg-3 px-0 order-2 order-lg-3">
           <nav
             class="navbar navbar-expand-lg navbar-light bg-light py-0 bg-white pl-0"
           >
@@ -98,10 +98,23 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                <li class="nav-item active font-weight-bold">
-                  <a class="nav-link pr-3 pl-0" href="#"
+                <li class="nav-item dropdown active font-weight-bold">
+                  <a class="nav-link dropdown-toggle pr-3 pl-0" 
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                     >Home <span class="sr-only">(current)</span></a
                   >
+                  <div class="dropdown-menu border-0">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="entertaiment.html"
+                      >Entertaiment</a
+                    >
+                    <a class="dropdown-item" href="#">Blog</a>
+                  </div>
                 </li>
                 <li class="nav-item dropdown active font-weight-bold">
                   <a
@@ -264,8 +277,8 @@
             <div
               class="card-img-overlay d-flex justify-content-end flex-column entertaiment-photo-border"
             >
-              <span class="label-posts">Celebrity</span>
-              <h3 class="card-title">
+              <p class="label-posts mb-1">Celebrity</p>
+              <h3 class="card-title mb-1">
                 Music quisque at ipsum vel orci eleifend ultrices
               </h3>
               <p class="card-text">
@@ -286,7 +299,7 @@
                 <div
                   class="card-img-overlay d-flex justify-content-end flex-column pb-0 entertaiment-photo-border"
                 >
-                  <span class="label-posts">Games</span>
+                  <p class="label-posts mb-1">Games</p>
                   <h6 class="card-title">
                     Pallentesque dui nigh, pallentesque ut dapibus ut.
                   </h6>
@@ -303,7 +316,7 @@
                 <div
                   class="card-img-overlay d-flex justify-content-end flex-column pb-1 entertaiment-photo-border"
                 >
-                  <span class="label-posts">Music</span>
+                  <p class="label-posts mb-1">Music</p>
                   <h6 class="card-title">
                     Motobike Vestibulum venenatis purus nec nibh volutpat
                   </h6>
@@ -320,7 +333,7 @@
                 <div
                   class="card-img-overlay d-flex justify-content-end flex-column pb-1 entertaiment-photo-border"
                 >
-                  <span class="label-posts">Games</span>
+                  <p class="label-posts mb-1">Games</p>
                   <h6 class="card-title">
                     Pallentesque dui nigh, pallentesque ut dapibus ut.
                   </h6>
@@ -337,7 +350,7 @@
                 <div
                   class="card-img-overlay d-flex justify-content-end flex-column pb-1 entertaiment-photo-border"
                 >
-                  <span class="label-posts">Music</span>
+                  <p class="label-posts mb-1">Music</p>
                   <h6 class="card-title">
                     Motobike vestibulum venenatis purus nec nigh volutpat
                   </h6>
@@ -666,7 +679,7 @@
       <div class="row bg-black pt-5">
         <div class="col-12 mt-3 d-flex justify-content-center text-white">
           <p class="d-none d-md-block" style="font-size: 20px;">
-            Copyright &copy; 2018 <span class="text-green">Colorlib</span>. All
+            Copyright &copy; 2018 <span class="text-green">Colorlib.</span> All
             rights reserved.
           </p>
           <p class="d-block d-md-none text-center" style="font-size: 20px;">

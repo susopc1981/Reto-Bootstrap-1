@@ -71,16 +71,16 @@
         </div>
       </div>
       <!--       HEADER       -->
-      <div class="row mt-3 mt-md-5">
-        <div class="col-8 col-md-3 px-2 order-1 order-md-1 logo-align pt-md-4">
+      <div class="row mt-3 mt-lg-5">
+        <div class="col-8 col-lg-3 px-2 order-1 order-lg-1 logo-align pt-lg-4">
           <img class="img-fluid" src="images/icons/logo-01.png" />
         </div>
         <div
-          class="col-md-9 px-1 order-3 order-md-2 pt-3 pt-md-0 d-flex justify-content-end"
+          class="col-lg-9 px-1 order-3 order-lg-2 pt-3 pt-lg-0 d-flex justify-content-end"
         >
           <img class="img-fluid" src="images/banner-01.jpg" />
         </div>
-        <div class="col-4 col-md-12 mt-md-3 px-0 order-2 order-md-3">
+        <div class="col-4 col-lg-12 mt-lg-3 px-0 order-2 order-lg-3">
           <nav
             class="navbar navbar-expand-lg navbar-light bg-light py-0 bg-white pl-0"
           >
@@ -98,10 +98,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
-                <li class="nav-item active font-weight-bold">
-                  <a class="nav-link pr-3 pl-0 border-bottom-navbar" href="#"
+                <li class="nav-item dropdown active font-weight-bold">
+                  <a
+                    class="nav-link dropdown-toggle pr-3 pl-0 border-bottom-navbar"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                     >Home <span class="sr-only">(current)</span></a
                   >
+                  <div class="dropdown-menu border-0">
+                    <a class="dropdown-item" href="index.html">Home</a>
+                    <a class="dropdown-item" href="entertaiment.html"
+                      >Entertaiment</a
+                    >
+                    <a class="dropdown-item" href="#">Blog</a>
+                  </div>
                 </li>
                 <li class="nav-item dropdown active font-weight-bold">
                   <a
@@ -235,22 +249,9 @@
         </div>
       </div>
       <!--      BUSQUEDA      -->
-      <!-- <div class="row mt-3">
-        <div class="col-md-2 mt-0 pr-md-0">
-          <h6>TRENDING NOW:</h6>
-        </div>
-        <div class="col-md-6 pl-md-0 mt-1 mt-md-0">
-          <p class="mb-0">
-            Interest rate angst trips up US equity bull market
-          </p>
-        </div>
-        <div class="col-md-4 mt-1 mt-md-0 d-flex justify-content-md-end">
-          <input type="text" placeholder="Search" class="rounded-pill pl-3" />
-        </div>
-      </div> -->
       <div class="row pt-3 border-top">
-        <idv class="col-12 d-md-flex align-items-center">
-          <h5 class="mb-0">TRENDING NOW:</h5>
+        <div class="col-12 d-md-flex align-items-center">
+          <h5 class="trending-now mb-0">TRENDING NOW:</h5>
           <p class="pl-md-3 mt-2 mt-md-0 mb-0 flex-grow-1">
             Interest rate angst trips up US equity bull market
           </p>
@@ -258,9 +259,9 @@
             type="text"
             placeholder="Search"
             height="100"
-            class="rounded-pill pl-4 pr-4 mt-2 mt-md-0 border text-glass"
+            class="rounded-pill pl-4 pr-4 mt-2 mt-md-0 border trending-now-search text-glass"
           />
-        </idv>
+        </div>
       </div>
       <!--  GALERIA PRINCIPAL -->
       <div class="row mt-3">
@@ -284,7 +285,11 @@
           <div class="row">
             <div class="col-12">
               <div class="card bg-dark text-white border-0">
-                <img src="images/post-02.jpg" class="card-img" alt="..." />
+                <img
+                  src="images/post-02.jpg"
+                  class="card-img post2-mobile-size"
+                  alt="..."
+                />
                 <div
                   class="card-img-overlay d-flex justify-content-end flex-column pb-0"
                 >
@@ -829,7 +834,7 @@
         </div>
       </div>
       <!--       FOOTER       -->
-      <!-- <div class="row bg-black mt-5">
+      <div class="row bg-black mt-6">
         <div class="col-12 col-md-4 text-grey">
           <img class="img-fluid mt-6" src="images/icons/logo-02.png" />
           <p class="mt-5 font-weight-bold">
@@ -870,83 +875,88 @@
               <img class="img-fluid" src="images/post-15.jpg" />
             </div>
             <div class="col-8 d-flex flex-column">
-              <p class="font-weight-bold text-grey">
+              <p class="font-weight-bold text-grey text-footer mb-2">
                 Donec metus orci, malesuada et lectus vitae
               </p>
-              <p>Feb 17</p>
+              <p class="text-footer">Feb 17</p>
             </div>
             <div class="col-4 pr-0 mt-4">
               <img class="img-fluid" src="images/post-15.jpg" />
             </div>
             <div class="col-8 d-flex flex-column mt-4">
-              <p class="font-weight-bold text-grey">
+              <p class="font-weight-bold text-grey text-footer mb-2">
                 Donec metus orci, malesuada et lectus vitae
               </p>
-              <p>Feb 17</p>
+              <p class="text-footer">Feb 17</p>
             </div>
             <div class="col-4 pr-0 mt-4">
               <img class="img-fluid" src="images/post-15.jpg" />
             </div>
             <div class="col-8 d-flex flex-column mt-4">
-              <p class="font-weight-bold text-grey">
+              <p class="font-weight-bold text-grey text-footer mb-2">
                 Donec metus orci, malesuada et lectus vitae
               </p>
-              <p>Feb 17</p>
+              <p class="text-footer">Feb 17</p>
             </div>
           </div>
         </div>
         <div class="col-12 col-md-4">
           <h3 class="mt-6 text-white">Category</h3>
-          <div class="card mt-4 border-0">
-            <ul class="list-group list-group-flush border-0">
-              <a
-                class="list-group-item bg-black border-card-bottom pt-4 text-decoration-none text-grey"
-                href=""
-                target="_self"
-              >
-                Fashion (22)
-              </a>
-              <a
-                class="list-group-item bg-black border-card-bottom text-decoration-none text-grey"
-                href=""
-                target="_self"
-              >
-                Tecnology (29)
-              </a>
-              <a
-                class="list-group-item bg-black border-card-bottom text-decoration-none text-grey"
-                href=""
-                target="_self"
-              >
-                Street Style (15)
-              </a>
-              <a
-                class="list-group-item bg-black border-card-bottom text-decoration-none text-grey"
-                href=""
-                target="_self"
-              >
-                Life Style (28)
-              </a>
-              <a
-                class="list-group-item bg-black border-card-bottom text-decoration-none text-grey"
-                href=""
-                target="_self"
-              >
-                DIY & Crafts (16)
-              </a>
-            </ul>
+          <div class="d-flex flex-column mt-4 border-0">
+            <a
+              class="rounded-0 bg-black pt-4 text-decoration-none text-grey pb-3 border-card-bottom"
+              href=""
+              target="_self"
+            >
+              Fashion (22)
+            </a>
+            <a
+              class="bg-black text-decoration-none text-grey py-3 border-card-bottom"
+              href=""
+              target="_self"
+            >
+              Tecnology (29)
+            </a>
+            <a
+              class="bg-black text-decoration-none text-grey py-3 border-card-bottom"
+              href=""
+              target="_self"
+            >
+              Street Style (15)
+            </a>
+            <a
+              class="bg-black text-decoration-none text-grey py-3 border-card-bottom"
+              href=""
+              target="_self"
+            >
+              Life Style (28)
+            </a>
+            <a
+              class="bg-black rounded-0 text-decoration-none text-grey py-3"
+              href=""
+              target="_self"
+            >
+              DIY & Crafts (16)
+            </a>
           </div>
         </div>
       </div>
-      <div class="row bg-black">
+      <div class="row bg-black pt-5">
         <div class="col-12 mt-3 d-flex justify-content-center text-white">
-          <p>
-            Copyright &copy; 2018 <span class="text-green">Colorlib</span>. All
+          <p class="d-none d-md-block" style="font-size: 20px;">
+            Copyright &copy; 2018 <span class="text-green">Colorlib.</span> All
             rights reserved.
           </p>
+          <p class="d-block d-md-none text-center" style="font-size: 20px;">
+            Copyright &copy; 2018
+            <span class="text-green"
+              >Copyright &copy 2020 All rights reserved | This template is made
+              with by </span
+            ><span class="text-info">Colorlib</span>
+          </p>
         </div>
-      </div> -->
-      <div class="row bg-black mt-6">
+      </div>
+      <!-- <div class="row bg-black mt-6">
         <div class="col-12 col-md-4 text-grey">
           <img class="img-fluid mt-6" src="images/icons/logo-02.png" />
           <p class="mt-5 font-weight-bold">
@@ -1067,7 +1077,7 @@
             ><span class="text-info">Colorlib</span>
           </p>
         </div>
-      </div>
+      </div> -->
     </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
