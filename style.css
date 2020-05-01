@@ -126,11 +126,31 @@ h3.card-title {
 .text-footer {
   font-size: 14px;
 }
+
 a:hover {
   text-decoration: none;
 }
+.blog-form {
+  width: 300px;
+  padding-left: 5px;
+  outline: 0px;
+  height: 40px;
+}
 
-@media (max-width: 990px) {
+.button-form {
+  width: 150px;
+  background-color: black;
+  color: white;
+  height: 40px;
+  text-decoration: none;
+}
+
+.button-form:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media (min-width: 761px) and (max-width: 990px) {
   h3.card-title {
     font-size: 25px;
   }
@@ -151,29 +171,40 @@ a:hover {
   .trending-now-search {
     width: 200px;
   }
+  .font-size-20 {
+    font-size: 20px;
+  }
+  .font-size-10 {
+    font-size: 10px;
+  }
+  .font-size-12 {
+    font-size: 12px;
+  }
+  .popular-post-lg {
+    font-size: 13px;
+  }
+  popular-post-lg-category {
+    font-size: 10px;
+  }
+  .tags-size {
+    font-size: 11px !important;
+  }
 }
 
 @media (max-width: 760px) {
-  h3.card-title {
-    font-size: 25px;
-    font-weight: 700;
-  }
-  p.card-text {
-    font-size: 12px;
-  }
-
-  h6.card-title {
-    font-size: 21px;
-  }
-  p.label-posts {
-    font-size: 20px;
-  }
-
-  .trending-now {
-    font-size: 30px;
-    font-weight: 500;
-  }
   .post2-mobile-size {
     height: 254px;
+  }
+  a span {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+  .popular-post-lg {
+    font-size: 13px;
+  }
+  .popular-post-lg-category {
+    font-size: 10px;
   }
 }
