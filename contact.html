@@ -99,13 +99,14 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item dropdown active font-weight-bold">
-                  <a class="nav-link dropdown-toggle pr-3 pl-0" 
-                  href="#"
-                  id="navbarDropdownMenuLink"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
+                  <a
+                    class="nav-link dropdown-toggle pr-3 pl-0"
+                    href="#"
+                    id="navbarDropdownMenuLink"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
                     >Home <span class="sr-only">(current)</span></a
                   >
                   <div class="dropdown-menu border-0">
@@ -138,7 +139,7 @@
                 </li>
                 <li class="nav-item dropdown active font-weight-bold">
                   <a
-                    class="nav-link dropdown-toggle pr-3 border-bottom-navbar"
+                    class="nav-link dropdown-toggle pr-3"
                     href="#"
                     id="navbarDropdownMenuLink"
                     role="button"
@@ -150,7 +151,6 @@
                   </a>
                   <div class="dropdown-menu border-0">
                     <a class="dropdown-item" href="bloglist.html">Blog</a>
-
                   </div>
                 </li>
                 <li class="nav-item dropdown active font-weight-bold">
@@ -227,7 +227,7 @@
                 </li>
                 <li class="nav-item dropdown active font-weight-bold">
                   <a
-                    class="nav-link dropdown-toggle"
+                    class="nav-link dropdown-toggle border-bottom-navbar"
                     href="#"
                     id="navbarDropdownMenuLink"
                     role="button"
@@ -238,8 +238,9 @@
                     Features
                   </a>
                   <div class="dropdown-menu border-0">
-                    <a class="dropdown-item" href="blogdetails.html">Entertaiment</a>
-
+                    <a class="dropdown-item" href="blogdetails.html"
+                      >Entertaiment</a
+                    >
                   </div>
                 </li>
               </ul>
@@ -253,316 +254,93 @@
           <nav aria-label="breadcrumb" class="flex-grow-1">
             <ol class="breadcrumb bg-white pl-0 mb-1 pt-0 pb-0">
               <li class="breadcrumb-item">Home</li>
-              <li class="breadcrumb-item">Category</li>
               <li class="breadcrumb-item active" aria-current="page">
-                Entertaiment
+                Contact Us
               </li>
             </ol>
           </nav>
           <input
             type="text"
             placeholder="Search"
+            style="outline: 0px;"
             class="rounded-pill pl-4 pr-4 mt-2 mt-md-0 border text-glass"
           />
         </div>
-        <div class="col-12 mt-3">
-          <h2>ENTERTAIMENT</h2>
-        </div>
       </div>
-      <!--  GALERIA PRINCIPAL -->
-      <div class="row mt-3">
-        <div class="col-12 col-md-6 px-md-0">
-          <div class="card bg-dark text-white border-0">
-            <img src="images/entertaiment-01.jpg" class="card-img" alt="..." />
-            <div
-              class="card-img-overlay d-flex justify-content-end flex-column entertaiment-photo-border"
+      <!--        BODY        -->
+      <div class="row">
+        <div class="col-12 mt-3 pl-md-0">
+          <h4>Contact Us</h4>
+        </div>
+        <div class="col-12 col-md-8 pl-md-0 text-justify mt-md-4">
+          <form class="d-flex flex-column">
+            <input
+              type="text"
+              placeholder="Name *"
+              class="form-control px-3 blog-form w-100"
+            />
+
+            <input
+              type="text"
+              class="form-control px-3 mt-3 blog-form w-100"
+              placeholder="Email *"
+            />
+            <input
+              type="text"
+              class="form-control px-3 mt-3 blog-form w-100"
+              placeholder="Website"
+            />
+            <textarea
+              class="form-control mt-3 px-3"
+              id="exampleFormControlTextarea1"
+              rows="5"
+              placeholder="Your message..."
+            ></textarea>
+            <a
+              type="submit"
+              class="button-form rounded text-center pt-2 mt-5"
+              href="#"
+              >Send</a
             >
-              <p class="label-posts mb-1">Celebrity</p>
-              <h3 class="card-title mb-1">
-                Music quisque at ipsum vel orci eleifend ultrices
-              </h3>
-              <p class="card-text">
-                Jack Sims - Feb 16
-              </p>
-            </div>
-          </div>
+          </form>
         </div>
-        <div class="col-12 col-md-6 px-md-0">
-          <div class="row">
-            <div class="col-12 col-md-6 pr-md-0">
-              <div class="card bg-dark text-white border-0">
-                <img
-                  src="images/entertaiment-02.jpg"
-                  class="card-img"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay d-flex justify-content-end flex-column pb-0 entertaiment-photo-border"
-                >
-                  <p class="label-posts mb-1">Games</p>
-                  <h6 class="card-title">
-                    Pallentesque dui nigh, pallentesque ut dapibus ut.
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 pl-md-0">
-              <div class="card bg-dark text-white border-0">
-                <img
-                  src="images/entertaiment-03.jpg"
-                  class="card-img"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay d-flex justify-content-end flex-column pb-1 entertaiment-photo-border"
-                >
-                  <p class="label-posts mb-1">Music</p>
-                  <h6 class="card-title">
-                    Motobike Vestibulum venenatis purus nec nibh volutpat
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 pr-md-0">
-              <div class="card bg-dark text-white border-0">
-                <img
-                  src="images/entertaiment-04.jpg"
-                  class="card-img"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay d-flex justify-content-end flex-column pb-1 entertaiment-photo-border"
-                >
-                  <p class="label-posts mb-1">Games</p>
-                  <h6 class="card-title">
-                    Pallentesque dui nigh, pallentesque ut dapibus ut.
-                  </h6>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 pl-md-0">
-              <div class="card bg-dark text-white border-0">
-                <img
-                  src="images/entertaiment-05.jpg"
-                  class="card-img"
-                  alt="..."
-                />
-                <div
-                  class="card-img-overlay d-flex justify-content-end flex-column pb-1 entertaiment-photo-border"
-                >
-                  <p class="label-posts mb-1">Music</p>
-                  <h6 class="card-title">
-                    Motobike vestibulum venenatis purus nec nigh volutpat
-                  </h6>
-                </div>
-              </div>
-            </div>
+        <div class="col-12 col-md-4 mt-4 pt-md-0">
+          <div class="alert bg-white rounded-0 latest-articles-style">
+            Popular Post
           </div>
-        </div>
-      </div>
-      <!--  GALERIA DE IMAXES -->
-      <div class="row mt-5">
-        <div class="col-12 col-md-8 pl-md-0">
-          <div class="row">
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-06.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 18
+          <div class="row mt-4">
+            <div class="col-4 col-md-12 col-lg-4">
+              <img class="img-fluid" src="images/post-06.jpg" />
+            </div>
+            <div class="col-8 col-md-12 col-lg-8">
+              <p class="font-weight-bold text-dark mb-1 popular-post-lg">
+                Donec metus orci malesuada et lectus vitae
+              </p>
+              <p style="font-size: 12px;" class="popular-post-lg-category">
+                Music - Feb 17
               </p>
             </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-07.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 16
+            <div class="col-4 mt-3 col-md-12 col-lg-4">
+              <img class="img-fluid" src="images/post-07.jpg" />
+            </div>
+            <div class="col-8 mt-3 col-md-12 col-lg-8">
+              <p class="font-weight-bold text-dark mb-1 popular-post-lg">
+                Donec metus orci malesuada et lectus vitae
+              </p>
+              <p style="font-size: 12px;" class="popular-post-lg-category">
+                Game - Feb 16
               </p>
             </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-08.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 15
-              </p>
+            <div class="col-4 mt-3 col-md-12 col-lg-4">
+              <img class="img-fluid" src="images/post-08.jpg" />
             </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-09.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 12
+            <div class="col-8 mt-3 col-md-12 col-lg-8">
+              <p class="font-weight-bold text-dark mb-1 popular-post-lg">
+                Donec metus orci malesuada et lectus vitae
               </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/latest-05.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 10
+              <p style="font-size: 12px;" class="popular-post-lg-category">
+                Celebrity - Feb 12
               </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/latest-06.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 18
-              </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-10.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 18
-              </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-11.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 16
-              </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-12.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 15
-              </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-13.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 12
-              </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-14.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 10
-              </p>
-            </div>
-            <div class="col-12 col-md-6 mt-4">
-              <img class="img-fluid" src="images/entertaiment-15.jpg" />
-              <h4 class="text-dark mt-2">
-                You wish loren ipsum dolor sit amet consectetur
-              </h4>
-              <p class="latest-articles-name">
-                by John Alvarado - Feb 18
-              </p>
-            </div>
-          </div>
-          <div
-            class="btn-group ml-1 pl-0 mt-5"
-            role="group"
-            aria-label="First group"
-          >
-            <button type="button" class="btn btn-success rounded-circle">
-              1
-            </button>
-            <button
-              type="button"
-              class="btn btn-white border rounded-circle ml-3"
-            >
-              2
-            </button>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 pr-md-0 pl-4 mt-5 mt-md-0">
-          <div class="card border-0 mt-4">
-            <div class="card-body bg-success text-white px-5">
-              <h3 class="card-title">Suscribe</h3>
-              <p class="card-text">
-                Get all latests content delivered to your email a few times a
-                month.
-              </p>
-              <input
-                type="text"
-                placeholder="Email"
-                class="pl-3 pr-4 w-100 text-arrow"
-                style="height: 50px;"
-              />
-            </div>
-          </div>
-          <div class="alert bg-white mt-5 rounded-0 latest-articles-style">
-            Most Popular
-          </div>
-          <div class="d-flex flex-row">
-            <h3><span class="badge badge-secondary">1</span></h3>
-            <p class="ml-3 font-weight-bold text-black-50">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
-            </p>
-          </div>
-          <div class="d-flex flex-row">
-            <h3><span class="badge badge-secondary">2</span></h3>
-            <p class="ml-3 font-weight-bold text-black-50">
-              Proin velit consenctetur non neque
-            </p>
-          </div>
-          <div class="d-flex flex-row mt-3">
-            <h3><span class="badge badge-secondary">3</span></h3>
-            <p class="ml-3 font-weight-bold text-black-50">
-              Nunc vestibulum, enim vitae condimentum volutpat labortis ante
-            </p>
-          </div>
-          <div class="d-flex flex-row">
-            <h3><span class="badge badge-secondary">4</span></h3>
-            <p class="ml-3 font-weight-bold text-black-50">
-              Proin velit justo consectetur non neque elementum
-            </p>
-          </div>
-          <div class="d-flex flex-row">
-            <h3><span class="badge badge-secondary">5</span></h3>
-            <p class="ml-3 font-weight-bold text-black-50">
-              Proin velit consectetur non neque
-            </p>
-          </div>
-          <div class="d-flex justify-content-center mt-3">
-            <img class="img-fluid" src="images/banner-02.jpg" />
-          </div>
-          <div
-            class="alert alert-light rounded-0 latest-articles-style mt-5 mb-4"
-            role="alert"
-          >
-            Tags
-          </div>
-          <div class="row">
-            <div class="col">
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">Fashion</p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">
-                LifeStyle
-              </p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">Denim</p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">
-                StreetStyle
-              </p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">Crafts</p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">
-                Magazine
-              </p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">News</p>
-              <p class="btn btn-outline-secondary rounded-pill mr-2 tags-size">Blogs</p>
             </div>
           </div>
         </div>
@@ -690,7 +468,6 @@
           </p>
         </div>
       </div>
-    </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
